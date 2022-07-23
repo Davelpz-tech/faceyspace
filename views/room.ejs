@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>faceyspace</title>
+    <script defer src="https://unpkg.com/peerjs@1.2.0/dist/peerjs.min.js"></script>
     <script>
         const ROOM_ID = "<%= roomId %>"
     </script>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
     <style>
         #video-grid {
             display: grid;
